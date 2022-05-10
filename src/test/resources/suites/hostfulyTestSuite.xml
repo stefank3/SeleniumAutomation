@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="PayWall Tests">
+<suite name="Excercise Tests">
     <listeners>
         <listener class-name="com.taw.listeners.TestListener"/>
     </listeners>
-    <test name="InPlayer Paywall Tests">
+    <test name="Hostfully Orbitz Tests">
         <classes>
             <class name="com.taw.tests.HostfulyOrbitzQueryTest"/>
         </classes>
