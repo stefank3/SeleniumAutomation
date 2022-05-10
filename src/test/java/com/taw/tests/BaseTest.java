@@ -1,13 +1,13 @@
 package com.taw.tests;
 
-import com.inPlayer.taw.common.elements.Elements;
-import com.taw.pageObjects.InPlayerPaywallEventDemoPage;
+import com.hostfuly.taw.common.elements.Elements;
+import com.taw.pageObjects.HostfilyOrbitzQueryPage;
 
 public class BaseTest extends Elements {
 
     // vm options -Dbrowser=chrome -Denvironment=TEST
 
-   public InPlayerPaywallEventDemoPage paywallPage = new InPlayerPaywallEventDemoPage();
+   public HostfilyOrbitzQueryPage orbitzQueryPage = new HostfilyOrbitzQueryPage();
 
     public void set_up() {
         browser.open();

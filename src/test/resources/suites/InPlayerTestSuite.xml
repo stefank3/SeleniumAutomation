@@ -6,7 +6,7 @@
     </listeners>
     <test name="InPlayer Paywall Tests">
         <classes>
-            <class name="com.taw.tests.InPlayerPaywallEventDemoTest"/>
+            <class name="com.taw.tests.HostfulyOrbitzQueryTest"/>
         </classes>
     </test>
 </suite>
