@@ -12,6 +12,8 @@ public class HostfilyOrbitzQueryPage {
     public By rememberMeCheckBox = By.id("loginFormRememberMeCheck");
     public By loginSubmitBtn = By.id("loginFormSubmitButton");
     public By searchLocation = By.cssSelector("button[aria-label|='Going to']");
+    public By inputLocation = By.xpath("//*[@id='location-field-destination']");
+    public By selectLocResult = By.xpath("//div[contains(@class,'uitk-typeahead-button-label')]/span']");
     public By submitSearchLocation = By.cssSelector("button[data-testid|='submit-button']");
     public By homePageLogo = By.cssSelector("img[alt|='orbitz logo']");
     public By rating = By.cssSelector("input[id|='radio-guestRating-']");

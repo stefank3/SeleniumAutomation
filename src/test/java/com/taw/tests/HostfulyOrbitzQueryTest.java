@@ -17,23 +17,14 @@ public class HostfulyOrbitzQueryTest extends BaseTest {
 
     }
 
+
     @Test
-    public void verifyLogIn() {
-        button.click(orbitzQueryPage.loginButton);
-        button.click(orbitzQueryPage.signInButton);
-        input.type(orbitzQueryPage.username,"stefank3@gmail.com");
-        input.type(orbitzQueryPage.password,"K4jc3vski1!");
-        button.click(orbitzQueryPage.rememberMeCheckBox);
-        button.click(orbitzQueryPage.loginSubmitBtn);
+    public void verifyRentalSearch() {
         validate.isElementPresent(orbitzQueryPage.homePageLogo);
         validate.isTitleValid("Orbitz Hotel Deals, Flights, Cheap Vacations & Rental Cars");
-
-    }
-
-    @Test
-    public void verifySignInGoogleUserPurchase() {
-        verifyLogIn();
-        input.type(orbitzQueryPage.searchLocation, "Ohrid");
+        button.click(orbitzQueryPage.searchLocation);
+        input.type(orbitzQueryPage.inputLocation, "Ohrid");
+        button.click(orbitzQueryPage.selectLocResult);
         button.click(orbitzQueryPage.submitSearchLocation);
         validate.isChecked(orbitzQueryPage.rating);
         validate.isChecked(orbitzQueryPage.neibourhood);

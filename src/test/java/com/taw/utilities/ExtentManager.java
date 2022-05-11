@@ -11,7 +11,7 @@ import java.io.File;
 public class ExtentManager {
     private static ExtentReports extent;
     private static Platform platform;
-    private static String reportFileName = "InPlayer-Automation-report.html";
+    private static String reportFileName = "Hostfully-Report.html";
     private static String macPath = System.getProperty("user.dir")+ "/test-report";
     private static String windowsPath = System.getProperty("user.dir")+ "\\target\\test-report";
     private static String linuxPath = System.getProperty("user.dir") + "/target/test-report";
