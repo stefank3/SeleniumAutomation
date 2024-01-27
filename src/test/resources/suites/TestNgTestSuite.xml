@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Excercise Tests">
+<listeners>
+    <listener class-name="com.taw.listeners.TestListener"/>
+</listeners>
+<test name="Hostfully Orbitz Tests">
+    <classes>
+
+    </classes>
+</test>
+</suite>
